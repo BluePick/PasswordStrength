@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		829D82721C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 829D82601C0B8EB600538D86 /* ic_lock_black_48dp.png */; };
+		829D82731C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 829D82621C0B8EB600538D86 /* ic_lock_black_48dp.png */; };
+		829D82741C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 829D82641C0B8EB600538D86 /* ic_lock_black_48dp.png */; };
+		829D82751C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 829D82661C0B8EB600538D86 /* ic_lock_black_48dp.png */; };
+		829D82761C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 829D82681C0B8EB600538D86 /* ic_lock_black_48dp.png */; };
+		829D82771C0B8EB600538D86 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 829D826B1C0B8EB600538D86 /* Contents.json */; };
+		829D82781C0B8EB600538D86 /* ic_lock_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 829D826C1C0B8EB600538D86 /* ic_lock_48pt.png */; };
+		829D82791C0B8EB600538D86 /* ic_lock_48pt_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829D826D1C0B8EB600538D86 /* ic_lock_48pt_2x.png */; };
+		829D827A1C0B8EB600538D86 /* ic_lock_48pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829D826E1C0B8EB600538D86 /* ic_lock_48pt_3x.png */; };
+		829D827B1C0B8EB600538D86 /* ic_lock_black_48dp_1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829D82701C0B8EB600538D86 /* ic_lock_black_48dp_1x.png */; };
+		829D827C1C0B8EB600538D86 /* ic_lock_black_48dp_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829D82711C0B8EB600538D86 /* ic_lock_black_48dp_2x.png */; };
+		829D827E1C0B90FE00538D86 /* o-DATA-PRIVACY-facebook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 829D827D1C0B90FE00538D86 /* o-DATA-PRIVACY-facebook.jpg */; };
+		829D829C1C0BD47200538D86 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D82971C0BD43E00538D86 /* Charts.framework */; };
+		829D829D1C0BD47200538D86 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 829D82971C0BD43E00538D86 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		829D82A41C0BD58000538D86 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D82A31C0BD58000538D86 /* BarChartViewController.swift */; };
+		829D82A61C0BDD1000538D86 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D82A51C0BDD1000538D86 /* WebViewController.swift */; };
 		CE73357C1C03E44D00ECFE31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73357B1C03E44D00ECFE31 /* AppDelegate.swift */; };
 		CE73357E1C03E44D00ECFE31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73357D1C03E44D00ECFE31 /* ViewController.swift */; };
 		CE7335811C03E44D00ECFE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE73357F1C03E44D00ECFE31 /* Main.storyboard */; };
@@ -16,6 +32,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		829D82961C0BD43E00538D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 829D82901C0BD43D00538D86 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		829D82981C0BD43E00538D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 829D82901C0BD43D00538D86 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		829D829A1C0BD43E00538D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 829D82901C0BD43D00538D86 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		829D829E1C0BD47200538D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 829D82901C0BD43D00538D86 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
 		CE73358D1C03E44D00ECFE31 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE7335701C03E44D00ECFE31 /* Project object */;
@@ -25,7 +69,36 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		829D82A01C0BD47200538D86 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				829D829D1C0BD47200538D86 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		829D82601C0B8EB600538D86 /* ic_lock_black_48dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_black_48dp.png; sourceTree = "<group>"; };
+		829D82621C0B8EB600538D86 /* ic_lock_black_48dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_black_48dp.png; sourceTree = "<group>"; };
+		829D82641C0B8EB600538D86 /* ic_lock_black_48dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_black_48dp.png; sourceTree = "<group>"; };
+		829D82661C0B8EB600538D86 /* ic_lock_black_48dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_black_48dp.png; sourceTree = "<group>"; };
+		829D82681C0B8EB600538D86 /* ic_lock_black_48dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_black_48dp.png; sourceTree = "<group>"; };
+		829D826B1C0B8EB600538D86 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		829D826C1C0B8EB600538D86 /* ic_lock_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_48pt.png; sourceTree = "<group>"; };
+		829D826D1C0B8EB600538D86 /* ic_lock_48pt_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_48pt_2x.png; sourceTree = "<group>"; };
+		829D826E1C0B8EB600538D86 /* ic_lock_48pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_48pt_3x.png; sourceTree = "<group>"; };
+		829D82701C0B8EB600538D86 /* ic_lock_black_48dp_1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_black_48dp_1x.png; sourceTree = "<group>"; };
+		829D82711C0B8EB600538D86 /* ic_lock_black_48dp_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_black_48dp_2x.png; sourceTree = "<group>"; };
+		829D827D1C0B90FE00538D86 /* o-DATA-PRIVACY-facebook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "o-DATA-PRIVACY-facebook.jpg"; sourceTree = "<group>"; };
+		829D82901C0BD43D00538D86 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "ios-charts-master/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
+		829D82A31C0BD58000538D86 /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
+		829D82A51C0BDD1000538D86 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		CE7335781C03E44D00ECFE31 /* PasswordStrength.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordStrength.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE73357B1C03E44D00ECFE31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE73357D1C03E44D00ECFE31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829D829C1C0BD47200538D86 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +130,115 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		829D825D1C0B8EB600538D86 /* ic_lock_black_48dp */ = {
+			isa = PBXGroup;
+			children = (
+				829D825E1C0B8EB600538D86 /* android */,
+				829D82691C0B8EB600538D86 /* ios */,
+				829D826F1C0B8EB600538D86 /* web */,
+			);
+			path = ic_lock_black_48dp;
+			sourceTree = "<group>";
+		};
+		829D825E1C0B8EB600538D86 /* android */ = {
+			isa = PBXGroup;
+			children = (
+				829D825F1C0B8EB600538D86 /* drawable-hdpi */,
+				829D82611C0B8EB600538D86 /* drawable-mdpi */,
+				829D82631C0B8EB600538D86 /* drawable-xhdpi */,
+				829D82651C0B8EB600538D86 /* drawable-xxhdpi */,
+				829D82671C0B8EB600538D86 /* drawable-xxxhdpi */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		829D825F1C0B8EB600538D86 /* drawable-hdpi */ = {
+			isa = PBXGroup;
+			children = (
+				829D82601C0B8EB600538D86 /* ic_lock_black_48dp.png */,
+			);
+			path = "drawable-hdpi";
+			sourceTree = "<group>";
+		};
+		829D82611C0B8EB600538D86 /* drawable-mdpi */ = {
+			isa = PBXGroup;
+			children = (
+				829D82621C0B8EB600538D86 /* ic_lock_black_48dp.png */,
+			);
+			path = "drawable-mdpi";
+			sourceTree = "<group>";
+		};
+		829D82631C0B8EB600538D86 /* drawable-xhdpi */ = {
+			isa = PBXGroup;
+			children = (
+				829D82641C0B8EB600538D86 /* ic_lock_black_48dp.png */,
+			);
+			path = "drawable-xhdpi";
+			sourceTree = "<group>";
+		};
+		829D82651C0B8EB600538D86 /* drawable-xxhdpi */ = {
+			isa = PBXGroup;
+			children = (
+				829D82661C0B8EB600538D86 /* ic_lock_black_48dp.png */,
+			);
+			path = "drawable-xxhdpi";
+			sourceTree = "<group>";
+		};
+		829D82671C0B8EB600538D86 /* drawable-xxxhdpi */ = {
+			isa = PBXGroup;
+			children = (
+				829D82681C0B8EB600538D86 /* ic_lock_black_48dp.png */,
+			);
+			path = "drawable-xxxhdpi";
+			sourceTree = "<group>";
+		};
+		829D82691C0B8EB600538D86 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				829D826A1C0B8EB600538D86 /* ic_lock_48pt.imageset */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		829D826A1C0B8EB600538D86 /* ic_lock_48pt.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				829D826B1C0B8EB600538D86 /* Contents.json */,
+				829D826C1C0B8EB600538D86 /* ic_lock_48pt.png */,
+				829D826D1C0B8EB600538D86 /* ic_lock_48pt_2x.png */,
+				829D826E1C0B8EB600538D86 /* ic_lock_48pt_3x.png */,
+			);
+			path = ic_lock_48pt.imageset;
+			sourceTree = "<group>";
+		};
+		829D826F1C0B8EB600538D86 /* web */ = {
+			isa = PBXGroup;
+			children = (
+				829D827D1C0B90FE00538D86 /* o-DATA-PRIVACY-facebook.jpg */,
+				829D82701C0B8EB600538D86 /* ic_lock_black_48dp_1x.png */,
+				829D82711C0B8EB600538D86 /* ic_lock_black_48dp_2x.png */,
+			);
+			path = web;
+			sourceTree = "<group>";
+		};
+		829D82911C0BD43D00538D86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				829D82971C0BD43E00538D86 /* Charts.framework */,
+				829D82991C0BD43E00538D86 /* Charts.framework */,
+				829D829B1C0BD43E00538D86 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CE73356F1C03E44D00ECFE31 = {
 			isa = PBXGroup;
 			children = (
+				829D82901C0BD43D00538D86 /* Charts.xcodeproj */,
 				CE73357A1C03E44D00ECFE31 /* PasswordStrength */,
 				CE73358F1C03E44D00ECFE31 /* PasswordStrengthTests */,
 				CE7335791C03E44D00ECFE31 /* Products */,
+				829D825D1C0B8EB600538D86 /* ic_lock_black_48dp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,9 +257,11 @@
 				CE73357B1C03E44D00ECFE31 /* AppDelegate.swift */,
 				CE73357D1C03E44D00ECFE31 /* ViewController.swift */,
 				CE73357F1C03E44D00ECFE31 /* Main.storyboard */,
+				829D82A51C0BDD1000538D86 /* WebViewController.swift */,
 				CE7335821C03E44D00ECFE31 /* Assets.xcassets */,
 				CE7335841C03E44D00ECFE31 /* LaunchScreen.storyboard */,
 				CE7335871C03E44D00ECFE31 /* Info.plist */,
+				829D82A31C0BD58000538D86 /* BarChartViewController.swift */,
 			);
 			path = PasswordStrength;
 			sourceTree = "<group>";
@@ -106,10 +285,12 @@
 				CE7335741C03E44D00ECFE31 /* Sources */,
 				CE7335751C03E44D00ECFE31 /* Frameworks */,
 				CE7335761C03E44D00ECFE31 /* Resources */,
+				829D82A01C0BD47200538D86 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				829D829F1C0BD47200538D86 /* PBXTargetDependency */,
 			);
 			name = PasswordStrength;
 			productName = PasswordStrength;
@@ -165,6 +346,12 @@
 			mainGroup = CE73356F1C03E44D00ECFE31;
 			productRefGroup = CE7335791C03E44D00ECFE31 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 829D82911C0BD43D00538D86 /* Products */;
+					ProjectRef = 829D82901C0BD43D00538D86 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CE7335771C03E44D00ECFE31 /* PasswordStrength */,
@@ -173,14 +360,50 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		829D82971C0BD43E00538D86 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 829D82961C0BD43E00538D86 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		829D82991C0BD43E00538D86 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 829D82981C0BD43E00538D86 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		829D829B1C0BD43E00538D86 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 829D829A1C0BD43E00538D86 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		CE7335761C03E44D00ECFE31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829D827C1C0B8EB600538D86 /* ic_lock_black_48dp_2x.png in Resources */,
+				829D82761C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */,
+				829D82741C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */,
+				829D82781C0B8EB600538D86 /* ic_lock_48pt.png in Resources */,
+				829D82771C0B8EB600538D86 /* Contents.json in Resources */,
+				829D82721C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */,
 				CE7335861C03E44D00ECFE31 /* LaunchScreen.storyboard in Resources */,
 				CE7335831C03E44D00ECFE31 /* Assets.xcassets in Resources */,
+				829D827A1C0B8EB600538D86 /* ic_lock_48pt_3x.png in Resources */,
+				829D82731C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */,
 				CE7335811C03E44D00ECFE31 /* Main.storyboard in Resources */,
+				829D827B1C0B8EB600538D86 /* ic_lock_black_48dp_1x.png in Resources */,
+				829D827E1C0B90FE00538D86 /* o-DATA-PRIVACY-facebook.jpg in Resources */,
+				829D82751C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */,
+				829D82791C0B8EB600538D86 /* ic_lock_48pt_2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +423,8 @@
 			files = (
 				CE73357E1C03E44D00ECFE31 /* ViewController.swift in Sources */,
 				CE73357C1C03E44D00ECFE31 /* AppDelegate.swift in Sources */,
+				829D82A41C0BD58000538D86 /* BarChartViewController.swift in Sources */,
+				829D82A61C0BDD1000538D86 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +439,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		829D829F1C0BD47200538D86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = 829D829E1C0BD47200538D86 /* PBXContainerItemProxy */;
+		};
 		CE73358E1C03E44D00ECFE31 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CE7335771C03E44D00ECFE31 /* PasswordStrength */;
@@ -328,6 +558,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = PasswordStrength/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.griffin.PasswordStrength;
@@ -342,6 +573,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = PasswordStrength/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.griffin.PasswordStrength;
@@ -393,6 +625,7 @@
 				CE7335971C03E44D00ECFE31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE7335981C03E44D00ECFE31 /* Build configuration list for PBXNativeTarget "PasswordStrengthTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +634,7 @@
 				CE73359A1C03E44D00ECFE31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
