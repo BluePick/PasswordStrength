@@ -25,8 +25,11 @@ public class RockyouClean {
 		
 		int count=0;
 		String pwd;
-		String regx="[\\x20-\\x7e]+";       //Define the password character set, \x20-\x7e refers to all printable characters, and space
+        //Define the password character set, \x20-\x7e refers to all printable characters, and space
+		//String regx="[\\x20-\\x7e]+"; 
+		String regx="[\\u0020-\\u007e\\u00A5\\u00A3]+";
 		while((pwd=reader.readLine())!=null){
+			//Match passwords with predefined pwd character set regex, if matches, write out to cleanedRockyou.txt file
 			if(Pattern.matches(regx, pwd)==true){
 				writer.write(pwd+"\r\n");
 				count++;
@@ -34,6 +37,7 @@ public class RockyouClean {
 		}
 	    reader.close();
 	    writer.close();
+	    //Output how many passwords we have after filtering the special pwds
 		System.out.println(count);
 	}
 }
