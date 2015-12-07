@@ -112,10 +112,10 @@ class BarChartViewController: UIViewController {
         
         
         
-        time = 0.000001
+        //time = 0.000001
         
         
-        myPassWordStrength = numAtempt*time
+        myPassWordStrength = numAtempt
         
         
         
@@ -354,7 +354,7 @@ class BarChartViewController: UIViewController {
         
         let myFileURL = NSBundle.mainBundle().URLForResource("quadgrams", withExtension: "txt")!
         let myText = try! String(contentsOfURL: myFileURL, encoding: NSUTF8StringEncoding)
-        print(myText)
+        
         
         
         
@@ -373,7 +373,7 @@ class BarChartViewController: UIViewController {
         
         print("\(newGram2)")
         
-        indexfor2 = substringfor1.startIndex.advancedBy(6)
+        indexfor2 = substringfor1.startIndex.advancedBy(5)
         substringfor2 = substringfor1.substringToIndex(indexfor2)
         
         // if let content = (myText){
@@ -434,10 +434,45 @@ class BarChartViewController: UIViewController {
         
         let myFileURL = NSBundle.mainBundle().URLForResource("finalDatabaseNoPasswords", withExtension: "txt")!
         let myText = try! String(contentsOfURL: myFileURL, encoding: NSUTF8StringEncoding)
-        print(myText)
+        //print(myText)
         
         var at: Double
-        at = totalProb*10000
+    //    at = totalProb*10000
+        at = 300
+        
+ 
+        
+        // if let content = (myText){
+        var myStrings = myText.componentsSeparatedByCharactersInSet(NSCharacterSet.newlineCharacterSet())
+        //       TextView.text = myStrings[0]
+        //  }
+        var i: Int = 0
+        var found: Bool = false
+        while  found == false{
+            var lineParsed = myStrings[i].componentsSeparatedByCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
+          //  var indexforOneG = myStrings[i].startIndex.advancedBy(1)
+          //  subStringForOneG = myStrings[i].substringToIndex(indexforOneG)
+            
+            //     var indexfor2 = subStringForOneG.startIndex.advancedBy(1)
+            //     subStringForOneG = subStringForOneG.substringToIndex(indexfor2)
+            
+            
+           // print(Double(subStringForOneG)!)
+           var probFile = Double(lineParsed[0])!
+        
+            print("prob file \(probFile)")
+            print("total prob \(totalProb)")
+            
+            if probFile <= totalProb{
+                var lineParsed = myStrings[i].componentsSeparatedByCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
+                print(lineParsed[0], lineParsed[1])
+                print(Double(lineParsed[1])!)
+                return Double(lineParsed[1])!
+            }
+            ++i
+            
+        }
+
         
         
         return at
