@@ -10,10 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var password: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func findPWStrength(sender: UIButton) {
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "ShowPasswordSegue"
+        {
+            if let destinationVC = segue.destinationViewController as? BarChartViewController{
+                destinationVC.passwordToDisplay = password.text!
+           }
+        }
+    }
 }
 

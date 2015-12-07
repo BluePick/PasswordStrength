@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82727A371C137D1A00F6964C /* unigrams.txt in Resources */ = {isa = PBXBuildFile; fileRef = 82727A361C137D1A00F6964C /* unigrams.txt */; };
+		82727A391C137D3000F6964C /* digrams.txt in Resources */ = {isa = PBXBuildFile; fileRef = 82727A381C137D3000F6964C /* digrams.txt */; };
+		82727A3B1C137D3A00F6964C /* trigrams.txt in Resources */ = {isa = PBXBuildFile; fileRef = 82727A3A1C137D3A00F6964C /* trigrams.txt */; };
+		82727A3D1C137D4500F6964C /* quadgrams.txt in Resources */ = {isa = PBXBuildFile; fileRef = 82727A3C1C137D4500F6964C /* quadgrams.txt */; };
+		82727A3F1C137D5300F6964C /* finalDatabase.txt in Resources */ = {isa = PBXBuildFile; fileRef = 82727A3E1C137D5300F6964C /* finalDatabase.txt */; };
 		829D82721C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 829D82601C0B8EB600538D86 /* ic_lock_black_48dp.png */; };
 		829D82731C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 829D82621C0B8EB600538D86 /* ic_lock_black_48dp.png */; };
 		829D82741C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 829D82641C0B8EB600538D86 /* ic_lock_black_48dp.png */; };
@@ -23,6 +28,7 @@
 		829D829D1C0BD47200538D86 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 829D82971C0BD43E00538D86 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		829D82A41C0BD58000538D86 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D82A31C0BD58000538D86 /* BarChartViewController.swift */; };
 		829D82A61C0BDD1000538D86 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D82A51C0BDD1000538D86 /* WebViewController.swift */; };
+		82FDFA491C15A0CD0027FDA2 /* finalDatabaseNoPasswords.txt in Resources */ = {isa = PBXBuildFile; fileRef = 82FDFA481C15A0CC0027FDA2 /* finalDatabaseNoPasswords.txt */; };
 		CE73357C1C03E44D00ECFE31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73357B1C03E44D00ECFE31 /* AppDelegate.swift */; };
 		CE73357E1C03E44D00ECFE31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73357D1C03E44D00ECFE31 /* ViewController.swift */; };
 		CE7335811C03E44D00ECFE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE73357F1C03E44D00ECFE31 /* Main.storyboard */; };
@@ -84,6 +90,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		82727A361C137D1A00F6964C /* unigrams.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = unigrams.txt; path = ../../RandomPasswordDatabase/Files/unigrams.txt; sourceTree = "<group>"; };
+		82727A381C137D3000F6964C /* digrams.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = digrams.txt; path = ../../RandomPasswordDatabase/Files/digrams.txt; sourceTree = "<group>"; };
+		82727A3A1C137D3A00F6964C /* trigrams.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = trigrams.txt; path = ../../RandomPasswordDatabase/Files/trigrams.txt; sourceTree = "<group>"; };
+		82727A3C1C137D4500F6964C /* quadgrams.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = quadgrams.txt; path = ../../RandomPasswordDatabase/Files/quadgrams.txt; sourceTree = "<group>"; };
+		82727A3E1C137D5300F6964C /* finalDatabase.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = finalDatabase.txt; path = ../../RandomPasswordDatabase/Files/finalDatabase.txt; sourceTree = "<group>"; };
 		829D82601C0B8EB600538D86 /* ic_lock_black_48dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_black_48dp.png; sourceTree = "<group>"; };
 		829D82621C0B8EB600538D86 /* ic_lock_black_48dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_black_48dp.png; sourceTree = "<group>"; };
 		829D82641C0B8EB600538D86 /* ic_lock_black_48dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_black_48dp.png; sourceTree = "<group>"; };
@@ -99,6 +110,7 @@
 		829D82901C0BD43D00538D86 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "ios-charts-master/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
 		829D82A31C0BD58000538D86 /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
 		829D82A51C0BDD1000538D86 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		82FDFA481C15A0CC0027FDA2 /* finalDatabaseNoPasswords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = finalDatabaseNoPasswords.txt; path = ../../RandomPasswordDatabase/Files/finalDatabaseNoPasswords.txt; sourceTree = "<group>"; };
 		CE7335781C03E44D00ECFE31 /* PasswordStrength.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordStrength.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE73357B1C03E44D00ECFE31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE73357D1C03E44D00ECFE31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -254,6 +266,12 @@
 		CE73357A1C03E44D00ECFE31 /* PasswordStrength */ = {
 			isa = PBXGroup;
 			children = (
+				82727A3E1C137D5300F6964C /* finalDatabase.txt */,
+				82727A3C1C137D4500F6964C /* quadgrams.txt */,
+				82FDFA481C15A0CC0027FDA2 /* finalDatabaseNoPasswords.txt */,
+				82727A3A1C137D3A00F6964C /* trigrams.txt */,
+				82727A381C137D3000F6964C /* digrams.txt */,
+				82727A361C137D1A00F6964C /* unigrams.txt */,
 				CE73357B1C03E44D00ECFE31 /* AppDelegate.swift */,
 				CE73357D1C03E44D00ECFE31 /* ViewController.swift */,
 				CE73357F1C03E44D00ECFE31 /* Main.storyboard */,
@@ -389,7 +407,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82727A371C137D1A00F6964C /* unigrams.txt in Resources */,
 				829D827C1C0B8EB600538D86 /* ic_lock_black_48dp_2x.png in Resources */,
+				82727A391C137D3000F6964C /* digrams.txt in Resources */,
+				82FDFA491C15A0CD0027FDA2 /* finalDatabaseNoPasswords.txt in Resources */,
 				829D82761C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */,
 				829D82741C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */,
 				829D82781C0B8EB600538D86 /* ic_lock_48pt.png in Resources */,
@@ -397,9 +418,12 @@
 				829D82721C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */,
 				CE7335861C03E44D00ECFE31 /* LaunchScreen.storyboard in Resources */,
 				CE7335831C03E44D00ECFE31 /* Assets.xcassets in Resources */,
+				82727A3F1C137D5300F6964C /* finalDatabase.txt in Resources */,
 				829D827A1C0B8EB600538D86 /* ic_lock_48pt_3x.png in Resources */,
+				82727A3B1C137D3A00F6964C /* trigrams.txt in Resources */,
 				829D82731C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */,
 				CE7335811C03E44D00ECFE31 /* Main.storyboard in Resources */,
+				82727A3D1C137D4500F6964C /* quadgrams.txt in Resources */,
 				829D827B1C0B8EB600538D86 /* ic_lock_black_48dp_1x.png in Resources */,
 				829D827E1C0B90FE00538D86 /* o-DATA-PRIVACY-facebook.jpg in Resources */,
 				829D82751C0B8EB600538D86 /* ic_lock_black_48dp.png in Resources */,

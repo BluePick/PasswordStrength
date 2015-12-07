@@ -52,7 +52,8 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Zxr-2h-4dr" kind="show" id="Mzt-Xl-RFs"/>
+                                    <action selector="findPWStrength:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XEA-rH-g6d"/>
+                                    <segue destination="Zxr-2h-4dr" kind="show" identifier="ShowPasswordSegue" id="Mzt-Xl-RFs"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -79,6 +80,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GQR-Bu-Uts"/>
+                    <connections>
+                        <outlet property="password" destination="9ua-79-Zwx" id="f9q-pn-hy0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
